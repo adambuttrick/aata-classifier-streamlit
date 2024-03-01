@@ -44,7 +44,7 @@ def predict_labels(text):
     filtered_labels = [(subj_dict[label.split('*')[1]], ratio)
                        for label, ratio in zip(labels, ratios)]
     sorted_labels = sorted(
-        filtered_labels, key=lambda x: x[1], reverse=True)[:5]
+        filtered_labels, key=lambda x: x[1], reverse=True)[:10]
     results = [label[0] for label in sorted_labels]
     return results
 
