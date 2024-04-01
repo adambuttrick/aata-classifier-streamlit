@@ -5,3 +5,9 @@ Streamlit wrapper for the AATA classifer
 ```
 pip install -r requirements.txt
 ```
+
+# usage
+```
+streamlit run app.py
+```
+
